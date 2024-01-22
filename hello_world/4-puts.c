@@ -2,7 +2,8 @@
 
 /* 
  * main - Entry Point
- * Return - o */
+ * Return - o
+ */
 
 int main(void)
 {
