@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* comment */
+/* 
+ * main - Entry Point
+ * Return - o
+ */
 
 int main(void)
 {
