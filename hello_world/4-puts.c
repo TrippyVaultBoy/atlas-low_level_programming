@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * main is the Entry point and
- * and always has a return
- * value of 0
+ * main - Entry Point
+ * Return value - always 0
  */
 
 int main(void)
