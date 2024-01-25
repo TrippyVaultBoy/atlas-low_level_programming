@@ -6,7 +6,7 @@
  * Return: always 0 (Success)
  */
 
-int  mainv(void)
+int  main(void)
 {
 	char c;
 
