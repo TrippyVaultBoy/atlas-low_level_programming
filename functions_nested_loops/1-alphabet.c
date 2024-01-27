@@ -1,16 +1,10 @@
 #include "main.h"
 
 /**
- * main- calls print_alphabet()
+ * print_alphabet- prints the alphabet
  * 
- * Return: Always 0
+ * Return: void
  */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 void print_alphabet(void)
 {
