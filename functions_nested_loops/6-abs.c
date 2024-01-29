@@ -9,13 +9,11 @@
 
 int _abs(int n)
 {
-	char num[] = 'n';
-
 	if (print_sign(n) == 1)
 	{
 		return (n);
 	}
-	else if (print_sign(n) == 0)
+	else (print_sign(n) == 0)
 	{
 		return (n * -1);
 	}
