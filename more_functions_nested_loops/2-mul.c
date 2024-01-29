@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int mull- multiplies two ints
+ * int mul- multiplies two ints
  * @a: first number
  * @b: second number
  *
