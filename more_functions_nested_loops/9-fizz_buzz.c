@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz- a test for programmers
+ * main- a test for programmers
  *
  * Return: void
  */
