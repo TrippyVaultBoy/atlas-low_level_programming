@@ -13,7 +13,7 @@ int _abs(int n)
 	{
 		return (n);
 	}
-	else (print_sign(n) == 0)
+	else
 	{
 		return (n * -1);
 	}
