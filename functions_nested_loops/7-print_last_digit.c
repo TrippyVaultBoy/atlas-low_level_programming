@@ -1,4 +1,4 @@
-#insert "main"
+#include "main"
 
 /**
  * print_last_digit- prints the last digit of a number
