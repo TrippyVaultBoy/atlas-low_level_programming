@@ -10,12 +10,11 @@
 void print_rev(char *s)
 {
 	int length;
+	int rev;
 
 	for (length = 0; s[length] != '\0'; length++)
 	{
 	}
-
-	int rev;
 
 	for (rev = length; rev >= 0; rev--)
 	{
