@@ -1,5 +1,5 @@
-#include "main"
-
+#include "main.h"
+	
 /**
  * reset_to_98- updates pointer to 98
  * @*n: pointer to be reset
