@@ -13,20 +13,20 @@ void jack_bauer(void)
 	int mintens;
 	int minones;
 
-	for (hourtens = 48; hourtens <= 50; hourtens++)
+	for (hourtens = 0; hourtens <= 2; hourtens++)
 	{
-		for (hourones = 48; hourones <= 51; hourones++)
+		for (hourones = 0; hourones <= 9; hourones++)
 		{
-			for (mintens = 48; mintens <= 53; mintens++)
+			for (mintens = 0; mintens <= 5; mintens++)
 			{
-				for (minones = 48; minones <= 57; minones++)
+				for (minones = 0; minones <= 9; minones++)
 				{
-					_putchar(hourtens);
-					_putchar(hourones);
-					_putchar(58);
-					_putchar(mintens);
-					_putchar(minones);
-					_putchar(10);
+					_putchar('0' + hourtens);
+					_putchar('0' + hourones);
+					_putchar(':');
+					_putchar('0' + mintens);
+					_putchar('0' + minones);
+					_putchar('\n');
 				}
 			}
 		}
