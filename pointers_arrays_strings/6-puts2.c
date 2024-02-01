@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2- prints every other 
+ * puts2- prints every other
  * charater of a string
  * @str: input string
  *
@@ -11,7 +11,7 @@
 void puts2(char *str)
 {
 	int i;
-	
+
 	i = 0;
 
 	while (str[i] != '\0')
