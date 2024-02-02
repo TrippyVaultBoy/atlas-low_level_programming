@@ -3,6 +3,7 @@
 
 /**
  * print_array- print n number of elements of an array
+ * @a: array to be printed
  * @n: number of elements to be printed
  *
  * Return: void
