@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncat- concatenates two strings 
+ * *_strncat- concatenates two strings
  * and uses at most n bytes from src
  * @dest: concatinated string
  * @src: string to be added
@@ -23,7 +23,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 
 	for (srclen = 0; src[srclen] != '\0'; srclen++)
-	{	
+	{
 		if (charcount < n)
 		{
 			dest[destlen] = src[srclen];
@@ -32,5 +32,5 @@ char *_strncat(char *dest, char *src, int n)
 		}
 	}
 
-	return (dest);	
+	return (dest);
 }
