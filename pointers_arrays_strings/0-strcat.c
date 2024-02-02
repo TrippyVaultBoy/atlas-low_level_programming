@@ -10,7 +10,20 @@
  * Return: pointer to the string dest
  */
 
-char *_strcat(char *dest, char *scr)
+char *_strcat(char *dest, char *src)
 {
-	
+	int destlen;
+	int srclen;
+
+	for (destlen = 0; dest[destlen] != '\0'; destlen++)
+	{
+	}
+
+	for (srclen = 0; src[srclen] != '\0'; srclen++)
+	{
+		dest[destlen] = src[srclen];
+		destlen++;
+	}
+
+	return (dest);
 }
