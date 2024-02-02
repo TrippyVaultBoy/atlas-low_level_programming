@@ -20,7 +20,7 @@ void print_array(int *a, int n)
 			break;
 		}
 
-		printf("%d, ",a[i]);
+		printf("%d, ", a[i]);
 	}
 	printf("\n");
 }
