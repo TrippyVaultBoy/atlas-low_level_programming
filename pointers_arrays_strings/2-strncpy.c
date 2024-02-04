@@ -23,6 +23,16 @@ char *_strncpy(char *dest, char *src, int n)
 			dest[i] = src[i];
 			charcount++;
 		}
+		else
+		{
+			dest[i] = '\0';
+		}
+	}
+
+	while (charcount < n)
+	{
+		dest[charcount] = '\0';
+		charcount++;
 	}
 
 	return (dest);
