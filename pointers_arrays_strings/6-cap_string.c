@@ -19,19 +19,19 @@ char *cap_string(char *str)
 	{
 		switch (str[i])
 		{
-			case' ';
-			case'\t';
-			case'\n';
-			case',';
-			case';';
-			case'.';
-			case'!';
-			case'?';
-			case'"';
-			case'(';
-			case')';
-			case'{';
-			case'}';
+			case' ':
+			case'\t':
+			case'\n':
+			case',':
+			case';':
+			case'.':
+			case'!':
+			case'?':
+			case'"':
+			case'(':
+			case')':
+			case'{':
+			case'}':
 				if (str[i + 1] > 96 && str[i + 1] < 123)
 				{
 					str[i + 1] = str[i + 1] - 32;
