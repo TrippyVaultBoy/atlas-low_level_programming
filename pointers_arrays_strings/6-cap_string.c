@@ -11,13 +11,15 @@ char *cap_string(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		if (str[0] > 96 && str[0] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+	i = 0;
 
+	if (str[0] > 96 && str[0] < 123)
+        {
+        	str[i + 1] = str[i + 1] - 32;
+        }
+
+	for (;str[i] != '\0'; i++)
+	{
 		if (str[i] == ',')
 		{
 			if (str[i + 1] > 96 && str[i] < 123)
