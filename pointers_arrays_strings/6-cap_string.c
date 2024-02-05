@@ -36,77 +36,77 @@ char *cap_string(char *str)
 		}
 		else if (str[i] == '.')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == '!')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == '?')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == '"')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == '(')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == ')')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == '{')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == '}')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == ' ')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == '\n')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == '\t')
 		{
-                        if (str[i + 1] > 96 && str[i] < 123)
+			if (str[i + 1] > 96 && str[i] < 123)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
