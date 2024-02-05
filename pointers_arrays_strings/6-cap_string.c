@@ -14,102 +14,102 @@ char *cap_string(char *str)
 	i = 0;
 
 	if (str[0] > 96 && str[0] < 123)
-        {
-        	str[0] = str[0] - 32;
-        }
+	{
+		str[0] = str[0] - 32;
+	}
 
-	for (;str[i] != '\0'; i++)
+	for (; str[i] != '\0'; i++)
 	{
 		if (str[i] == ',')
 		{
 			if (str[i + 1] > 96 && str[i] < 123)
 			{
-				str[i + 1] = str[i + 1] - 32; 
+				str[i + 1] = str[i + 1] - 32;
 			}
 		}
 		else if (str[i] == ';')
 		{
 			if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
 		}
 		else if (str[i] == '.')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 		else if (str[i] == '!')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 		else if (str[i] == '?')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 		else if (str[i] == '"')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 		else if (str[i] == '(')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 		else if (str[i] == ')')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 		else if (str[i] == '{')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 		else if (str[i] == '}')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 		else if (str[i] == ' ')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 		else if (str[i] == '\n')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 		else if (str[i] == '\t')
                 {
                         if (str[i + 1] > 96 && str[i] < 123)
-                        {
-                                str[i + 1] = str[i + 1] - 32;
-                        }
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
                 }
 
 
