@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * square_root- another function which calculated the square root 
+ * square_root- another function which calculated the square root
  * @val: number to determine the square root of
  * @counter: iterate from this number
  *
