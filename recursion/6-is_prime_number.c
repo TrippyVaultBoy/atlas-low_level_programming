@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * primt_num- checks if a number is a prime number
+ * @num: value to be checked
+ * @count: iterates from 2 to num / 2
+ */
+
 int prime_num(int num, int count)
 {
 	if (num % count == 0)
