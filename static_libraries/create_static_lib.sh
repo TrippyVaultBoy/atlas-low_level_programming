@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-ar rcs ./*.c
+ar rcs ./*.o
