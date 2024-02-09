@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ar rcs ./*.o
+ar liball.a ./*.o
