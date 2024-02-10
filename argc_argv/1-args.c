@@ -2,18 +2,6 @@
 #include <stdio.h>
 
 /**
- * print_args- prints the number of arguments passed into main
- * @num_args- number of args 
- *
- * Return: void
- */
-
-void print_args(int num_args)
-{
-
-}
-
-/**
  * main- main function
  * @argc- number of arguments
  *
@@ -22,5 +10,10 @@ void print_args(int num_args)
 
 int main(int argc, char *argv[])
 {
+	if (*argv[0] == '\0')
+	{
 
+	}
+	printf("%d\n", argc - 1);
+	return (0);
 }
