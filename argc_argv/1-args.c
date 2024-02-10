@@ -3,8 +3,8 @@
 
 /**
  * main- main function
- * @argc- number of arguments
- * @argv- arguments passed into function
+ * @argc: number of arguments
+ * @argv: arguments passed into function
  *
  * Return: always 0
  */
