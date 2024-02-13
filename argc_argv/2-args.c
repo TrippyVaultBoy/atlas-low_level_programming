@@ -15,9 +15,9 @@ int main(int argc, char *argv[])
 
 	if (argc > 0)
 	{
-		for (i = 0; i <= argc; i++)
+		for (i = 0; i < argc; i++)
 		{
-			printf("%c", *argv[i]);
+			printf("%s", argv[i]);
 			printf("\n");
 		}
 		return (0);
