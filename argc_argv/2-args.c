@@ -4,7 +4,7 @@
 /**
  * main- prints all argumants it recevies
  * @argc: number of argumants main recevies
- * @argv: pointer to names of all argumants 
+ * @argv: pointer to names of all argumants
  *
  * Return: always 0
  */
