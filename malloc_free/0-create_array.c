@@ -19,7 +19,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	array = (char*)malloc(size);
+	array = (char *)malloc(size);
 
 	if (array == NULL)
 	{
