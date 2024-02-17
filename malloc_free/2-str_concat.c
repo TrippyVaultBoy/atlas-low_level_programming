@@ -16,11 +16,11 @@ char *str_concat(char *s1, char *s2)
 	int len2;
 	int i;
 	int j;
-
+	int k;
+	k = 0;
 	for (len1 = 0; s1[len1] != '\0'; len1++)
 	{
 	}
-
 	for (len2 = 0; s2[len2] != '\0'; len2++)
 	{
 	}
@@ -33,9 +33,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		string[i] = s1[i];
 	}
-	for (j = i; j < len2; j++)
+	for (j = i; j < len2; k++)
 	{
-		string[j] = s2[j];
+		string[j] = s2[k];
 	}
 	return (string);	
 }
