@@ -25,7 +25,7 @@ char *_strdup(char *str)
 
 	array = (char *)malloc(i + 1);
 	
-	if (str == NULL)
+	if (array == NULL)
 	{
 		return (NULL);
 	}
