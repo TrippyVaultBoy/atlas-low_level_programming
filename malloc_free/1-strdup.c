@@ -13,6 +13,11 @@ char *_strdup(char *str)
 	int i;
 	int j;
 	char *array;
+	
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
