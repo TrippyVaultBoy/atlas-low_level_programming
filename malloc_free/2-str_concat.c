@@ -41,11 +41,11 @@ char *str_concat(char *s1, char *s2)
 	}
 	else if (s1 == NULL)
 	{
-		return (*_strdup(s2));
+		return ((char *)*_strdup(s2));
 	}
 	else if (s2 == NULL);
 	{
-		return (*_strdup(s1));
+		return ((char *)*_strdup(s1));
 	}
 	
 	len1 = _strlen(s1);
