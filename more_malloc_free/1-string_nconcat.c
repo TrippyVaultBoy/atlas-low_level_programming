@@ -3,7 +3,7 @@
 
 /**
  * _strlen- finds the length of a string
- * @string: input string
+ * @*string: input string
  * @n: number of elements to be returned
  *
  * Return: len
@@ -47,7 +47,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	int len2;
 	int i;
 	int j;
-	
+
 	len1 = _strlen(s1, 0);
 	len2 = _strlen(s2, n);
 
@@ -66,5 +66,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		i++;
 	}
 	string[i++] = '\0';
-	return (string);	
+	return (string);
 }
