@@ -16,10 +16,10 @@ int _strlen(char *string, unsigned int n)
 	if (n == 0)
 	{
 		 for (len = 0; string[len] != '\0'; len++)
-        	{
-        	}
+		{
+		}
 
-        	return (len);
+		return (len);
 	}
 	else
 	{
