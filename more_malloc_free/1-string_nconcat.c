@@ -11,7 +11,7 @@
 
 int _strlen(char *string, unsigned int n)
 {
-	int len;
+	unsigned int len;
 
 	if (n == 0)
 	{
@@ -23,7 +23,7 @@ int _strlen(char *string, unsigned int n)
 	}
 	else
 	{
-		for (len = 0; string[len] != '\0' && string[len] < n; len++)
+		for (len = 0; string[len] != '\0' && len < n; len++)
 		{
 		}
 
