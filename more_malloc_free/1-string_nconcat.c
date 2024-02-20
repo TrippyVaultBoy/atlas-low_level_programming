@@ -12,10 +12,10 @@
 int _strlen(char *string, unsigned int n)
 {
 	unsigned int len;
-
+	
 	if (n == 0)
 	{
-		 for (len = 0; string[len] != '\0'; len++)
+		for (len = 0; string[len] != '\0'; len++)
 		{
 		}
 
@@ -28,7 +28,7 @@ int _strlen(char *string, unsigned int n)
 		}
 
 		return (len);
-	}
+		}
 }
 
 /**
