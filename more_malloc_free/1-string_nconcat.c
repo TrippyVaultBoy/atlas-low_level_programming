@@ -3,7 +3,7 @@
 
 /**
  * _strlen- finds the length of a string
- * @*string: input string
+ * @string: input string
  * @n: number of elements to be returned
  *
  * Return: len
@@ -33,8 +33,8 @@ int _strlen(char *string, unsigned int n)
 
 /**
  * *string_nconcat- concatinated two strings
- * @*s1: first string
- * @*s2: second string
+ * @s1: first string
+ * @s2: second string
  * @n: concat the first n of s2
  *
  * Return: pointer to to string or NULL if failure
