@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * struct init_ dog- initialises data of dog
+ * struct init_dog- initialises data of dog
  * @name: name of the dog
  * @age of the dog
  * @owner: owner of the dog
