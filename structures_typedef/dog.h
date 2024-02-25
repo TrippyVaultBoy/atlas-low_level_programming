@@ -9,9 +9,12 @@
 
 struct dog
 {
-	char *name;
+	char *name[50];
 	float age;
-	char *owner;
+	char *owner[50];
 };
+
+char *_strncpy(char *dest, char *src, int n);
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif
