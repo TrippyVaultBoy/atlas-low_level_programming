@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 
 /**
@@ -49,6 +50,9 @@ char *_strcpy(char *dest, char *src)
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
+	int lname;
+	int lowner;
+
 	struct dog *new_dog;
 
 	new_dog = malloc(sizeof(struct dog));
