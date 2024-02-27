@@ -22,13 +22,6 @@ int _strlen(char *s)
 }
 
 /**
- * dog_t *new_dog- creates a new dog
- * @name: name of new dog
- * @age: age of new dog
- * @owner: owner of new dog
- */
-
-/**
  * *_strcpy- copies a string
  * @dest: buffer to coppy string to
  * @src: input string
@@ -47,6 +40,13 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
+
+/**
+ * dog_t *new_dog- creates a new dog
+ * @name: name of new dog
+ * @age: age of new dog
+ * @owner: owner of new dog
+ */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
