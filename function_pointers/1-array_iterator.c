@@ -3,7 +3,7 @@
 #include "function_pointers.h"
 
 /**
- * void array_iterator- executes a function given as a parameter on each element of an array
+ * void array_iterator- executes a function with a given array
  * @array: arfay to beterated through
  * @size: size of the array
  * @action: function to be exicuted
