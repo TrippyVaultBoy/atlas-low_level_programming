@@ -3,16 +3,23 @@
 #include <stdio.h>
 #include "lists.h"
 
+/**
+ * list_len- returns the number of elemnts in the list
+ * @h: pointer to head of the list
+ *
+ * Return: elements
+ */
+
 size_t list_len(const list_t *h)
 {
-	list_t *temp;
-	size_t elements;
+	int elements;
 
 	elements = 0;
-	temp = head;
 
-	while (temp != NULL) {
+	while (h != NULL)
+	{
 		elements++;
-		temp = temp->next;
+		h = h->next;
 	}
+	return (elements);
 }
