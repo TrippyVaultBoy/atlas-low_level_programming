@@ -11,7 +11,7 @@
  * Return: the address of new element or NULL
  */
 
-list_t *add_nodeint(listint_t **head, const int n)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *newNode;
 
@@ -23,13 +23,7 @@ list_t *add_nodeint(listint_t **head, const int n)
 		return (NULL);
 	}
 
-	newNode->n = strdup(n);
-
-	if (newNode->n == NULL)
-	{
-		free(newNode);
-		return (NULL);
-	}
+	newNode->n = n;
 
 	newNode->next = *head;
 	*head = newNode;
