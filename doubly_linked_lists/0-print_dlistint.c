@@ -12,11 +12,10 @@
 
 size_t print_dlistint(const dlistint_t *h)
 {
-    struct node temp = head;
+    const dlistint_t *temp = h;
+    int count;
+    count = 0;
 
-/**
-* get to the tail of the list
-*/
     while (temp->next != NULL)
     {
         temp = temp->next;
@@ -24,9 +23,11 @@ size_t print_dlistint(const dlistint_t *h)
 
     while (temp != NULL)
     {
-        printf("%d", temp->data);
+        printf("%d", temp->n);
+        count++;
         temp = temp->prev;
     }
 
+    return (count);
 
 }
