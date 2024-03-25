@@ -6,7 +6,7 @@
 /**
  * print_dlistint- prints a doubly linked list
  * @h: pointer to head of the list
- * 
+ *
  * Return: the number of nodes in the list
  */
 
@@ -14,6 +14,7 @@ size_t print_dlistint(const dlistint_t *h)
 {
 	const dlistint_t *temp = h;
 	int count;
+
 	count = 0;
 
 	if (h == NULL)
@@ -34,5 +35,4 @@ size_t print_dlistint(const dlistint_t *h)
 	}
 
 	return (count);
-
 }
