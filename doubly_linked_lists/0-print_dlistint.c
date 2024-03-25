@@ -12,5 +12,21 @@
 
 size_t print_dlistint(const dlistint_t *h)
 {
+    struct node temp = head;
+
+/**
+* get to the tail of the list
+*/
+    while (temp->next != NULL)
+    {
+        temp = temp->next;
+    }
+
+    while (temp != NULL)
+    {
+        printf("%d", temp->data);
+        temp = temp->prev;
+    }
+
 
 }
