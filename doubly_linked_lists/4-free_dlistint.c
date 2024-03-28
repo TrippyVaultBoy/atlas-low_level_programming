@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * freedlistint- frees a list
+ * free_dlistint- frees a list
  * @head: pointer to head of the list
 */
 
