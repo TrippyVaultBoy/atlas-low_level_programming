@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * get_dlistint_at_index- get the value of a node at a certain index
+ * get_dnodeint_at_index- get the value of a node at a certain index
  * @head: pointer to the head of the list
  * @index: index of node to be returned
  *
