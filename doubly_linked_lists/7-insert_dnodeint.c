@@ -19,8 +19,10 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	dlistint_t *current_node = *h;
 
 	unsigned int counter;
+	unsigned int length;
 	new_node->n = n;
 	counter = 0;
+	length = 0;
 
 	while (current_node->next != NULL)
 	{
