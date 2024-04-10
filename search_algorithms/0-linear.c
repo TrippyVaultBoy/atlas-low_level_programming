@@ -1,7 +1,12 @@
 #include "search_algos.h"
 
 /**
+ * linear_search- searches a array for a value
+ * @array: array to be searched
+ * @size: size of the array
+ * @value: value to be searched for
  *
+ * Return: the value if found or -1
 */
 
 int linear_search(int *array, size_t size, int value)
