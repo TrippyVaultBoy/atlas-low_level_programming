@@ -1,7 +1,12 @@
 #include "search_algos.h"
 
 /**
+ * binary_search- searches an array
+ * @array: array to be searched
+ * @size: size of array
+ * @value: value to be searched for
  *
+ * Return: index of value in array or -1
 */
 
 int binary_search(int *array, size_t size, int value)
