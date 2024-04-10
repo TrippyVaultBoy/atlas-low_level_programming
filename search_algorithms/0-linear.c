@@ -6,6 +6,8 @@
 
 int linear_search(int *array, size_t size, int value)
 {
+    unsigned int i;
+
     for (i = 0; i < size - 1; i++)
     {
         if (array == NULL)
@@ -19,7 +21,6 @@ int linear_search(int *array, size_t size, int value)
             printf("Found %d at index: %d\n", array[i], i);
             return (array[i]);
         }
-
-        return (-1);
     }
+    return (-1);
 }
