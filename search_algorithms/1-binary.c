@@ -12,7 +12,7 @@ int binary_search(int *array, size_t size, int value)
     int max;
 
     min = 0;
-    max = size;
+    max = size - 1;
 
     if (array == NULL)
     {
@@ -40,7 +40,7 @@ int binary_search(int *array, size_t size, int value)
         {
             max = middle - 1;
         }
-        else if (value > middle)
+        else
         {
             min = middle + 1;
         }
