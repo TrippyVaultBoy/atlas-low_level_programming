@@ -54,9 +54,7 @@ char *_strcpy(char *dest, const char *src)
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	hash_node_t *new_node;
-	unsigned long int index;
-	hash_node_t *current;
+	hash_node_t *new_node; unsigned long int index; hash_node_t *current;
 
 	if (key == NULL || ht == NULL)
 		return (0);
