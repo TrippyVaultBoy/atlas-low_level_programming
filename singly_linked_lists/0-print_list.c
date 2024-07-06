@@ -1,7 +1,4 @@
-#include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "lists.h"
 
 size_t print_list(const list_t *h)
 {
@@ -22,4 +19,5 @@ size_t print_list(const list_t *h)
             return count;
         }
     }
+    return 1;
 }
