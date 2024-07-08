@@ -2,22 +2,16 @@
 
 size_t print_list(const list_t *h)
 {
-    size_t count = 0;
+    int count = 0;
 
-    while(h)
+    while (h -> next != NULL)
     {
-        if (h->next != NULL)
+        if (h->str == NULL)
         {
-            _putchar(h->len);
-            count++;
-            h = h->next;
+            printf("[0] (nil)\n");
         }
-        else
-        {
-            _putchar(h->len);
-            count++;
-            return count;
-        }
+        count++;
+        printf("{s}", h->str);
     }
-    return 1;
+    return (count);
 }
