@@ -2,6 +2,7 @@
 
 /**
  * get_bit - gets the bit value at an index
+ * @n: input number
  * @index: index of bit
  * Return: value of bit at the given index
  */
