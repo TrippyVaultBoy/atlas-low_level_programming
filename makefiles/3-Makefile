@@ -8,7 +8,7 @@ all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 clean:
-	$(rm) *~ $(NAME)
+	$(rm) *~ *.swp *.swo $(NAME)
 
 oclean:
 	$(rm) $(OBJ)
